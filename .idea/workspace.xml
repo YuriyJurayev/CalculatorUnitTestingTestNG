@@ -1,7 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1eace4c7-1eab-41c2-abd0-f6f131012ed5" name="Default" comment="" />
+    <list default="true" id="1eace4c7-1eab-41c2-abd0-f6f131012ed5" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/testng.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/testnggrouped.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/testngparallel.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/testngparameterized.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/BaseTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/CosCalculatorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/CtgCalculatorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/DivCalculatorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/DivDoubleCalculatorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/IsNegativeCalculatorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/IsPositiveCalculatorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/MultCalculatorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/MultDoubleCalculatorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/PowCalculatorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/SinCalculatorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/SqrtCalculatorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/SubCalculatorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/SubDoubleCalculatorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/SumCalculatorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/SumDoubleCalculatorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/TgCalculatorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/bugsresolutionexamples/DivDoubleByZero.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/parameterizationexamples/SumCalculatorTestParameterizedUsingXMLParameters.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/parameterizationexamples/SumCalculatorTestParametrizedUsingDataProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/parameterizationexamples/SumCalculatorTestParametrizedUsingFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/runner/Runner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/runner/exception/RunnerException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/unittesting/tests/testUtils/CalculatorTestDataProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testCos.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testCos.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testCtg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testCtg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testDivision.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testDivision.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testIsNegative.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testIsNegative.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testIsPositive.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testIsPositive.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testMultiplication.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testMultiplication.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testPow.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testPow.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testSin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testSin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testSqrt.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testSqrt.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testSubtraction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testSubtraction.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testSum.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testSum.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testTg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testTg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Suite/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.epam.unittesting.tests.CosCalculatorTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.epam.unittesting.tests.CtgCalculatorTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.epam.unittesting.tests.DivCalculatorTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.epam.unittesting.tests.DivDoubleCalculatorTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.epam.unittesting.tests.IsNegativeCalculatorTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.epam.unittesting.tests.IsPositiveCalculatorTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.epam.unittesting.tests.MultCalculatorTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.epam.unittesting.tests.MultDoubleCalculatorTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.epam.unittesting.tests.PowCalculatorTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.epam.unittesting.tests.SinCalculatorTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.epam.unittesting.tests.SqrtCalculatorTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.epam.unittesting.tests.SubCalculatorTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.epam.unittesting.tests.SubDoubleCalculatorTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.epam.unittesting.tests.SumCalculatorTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.epam.unittesting.tests.SumDoubleCalculatorTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.epam.unittesting.tests.TgCalculatorTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/testCos.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/testCtg.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/testDivision.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/testIsNegative.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/testIsPositive.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/testMultiplication.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/testPow.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/testSin.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/testSqrt.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/testSubtraction.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/testSum.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/testTg.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Suite/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,7 +120,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SumCalculatorTestParametrizedUsingFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/unittesting/tests/parameterizationexamples/SumCalculatorTestParametrizedUsingFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -27,6 +166,9 @@
     <findStrings>
       <find>ctan</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -70,6 +212,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/epam/unittesting/tests/runner/exception/RunnerException.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/unittesting/tests/runner/Runner.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -79,11 +222,14 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
     <option name="height" value="855" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -501,8 +647,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="855" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="855" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -512,7 +657,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3218391" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -560,6 +705,9 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.gitignore" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -577,15 +725,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1073">
-          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/unittesting/tests/parameterizationexamples/sdfdf.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/unittesting/tests/123.java" />
     <entry file="jar://$USER_HOME$/Desktop/TA mentoring/hometasks/Unit testing frameworks/calculator-1.0.jar!/META-INF/maven/com.epam.tat.module4/calculator/pom.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -613,16 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/unittesting/tests/parameterizationexamples/SumCalculatorTestParametrizedUsingFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -877,7 +1006,7 @@
         <state relative-caret-position="323">
           <caret line="22" column="91" lean-forward="false" selection-start-line="22" selection-start-column="91" selection-end-line="22" selection-end-column="91" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1013,6 +1142,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/unittesting/tests/parameterizationexamples/SumCalculatorTestParametrizedUsingFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding />
         </state>
       </provider>
