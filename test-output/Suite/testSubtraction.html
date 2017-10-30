@@ -1,0 +1,317 @@
+<html>
+<head>
+<title>TestNG:  testSubtraction</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>testSubtraction</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/5/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Oct 30 14:02:44 ALMT 2017</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (46 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.epam.unittesting.tests.SubDoubleCalculatorTest.subDoubleTest()'><b>subDoubleTest</b><br>Test class: com.epam.unittesting.tests.SubDoubleCalculatorTest<br>Parameters: 100.01, 64, 36.01</td>
+<td><div><pre>java.lang.AssertionError: Invalid result of subtraction:  expected [36.01] but found [36.010000000000005]
+	at com.epam.unittesting.tests.SubDoubleCalculatorTest.subDoubleTest(SubDoubleCalculatorTest.java:13)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1987241357", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1987241357'><pre>java.lang.AssertionError: Invalid result of subtraction:  expected [36.01] but found [36.010000000000005]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at com.epam.unittesting.tests.SubDoubleCalculatorTest.subDoubleTest(SubDoubleCalculatorTest.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>com.epam.unittesting.tests.SubDoubleCalculatorTest@4c3e4790</td></tr>
+<tr>
+<td title='com.epam.unittesting.tests.SubDoubleCalculatorTest.subDoubleTest()'><b>subDoubleTest</b><br>Test class: com.epam.unittesting.tests.SubDoubleCalculatorTest<br>Parameters: 100.1, 64.0, 36.1</td>
+<td><div><pre>java.lang.AssertionError: Invalid result of subtraction:  expected [36.1] but found [36.099999999999994]
+	at com.epam.unittesting.tests.SubDoubleCalculatorTest.subDoubleTest(SubDoubleCalculatorTest.java:13)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1456446223", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1456446223'><pre>java.lang.AssertionError: Invalid result of subtraction:  expected [36.1] but found [36.099999999999994]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at com.epam.unittesting.tests.SubDoubleCalculatorTest.subDoubleTest(SubDoubleCalculatorTest.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>com.epam.unittesting.tests.SubDoubleCalculatorTest@4c3e4790</td></tr>
+<tr>
+<td title='com.epam.unittesting.tests.SubDoubleCalculatorTest.subDoubleTest()'><b>subDoubleTest</b><br>Test class: com.epam.unittesting.tests.SubDoubleCalculatorTest<br>Parameters: 100.4, 64.0, 36.4</td>
+<td><div><pre>java.lang.AssertionError: Invalid result of subtraction:  expected [36.4] but found [36.400000000000006]
+	at com.epam.unittesting.tests.SubDoubleCalculatorTest.subDoubleTest(SubDoubleCalculatorTest.java:13)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1232490196", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1232490196'><pre>java.lang.AssertionError: Invalid result of subtraction:  expected [36.4] but found [36.400000000000006]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at com.epam.unittesting.tests.SubDoubleCalculatorTest.subDoubleTest(SubDoubleCalculatorTest.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>com.epam.unittesting.tests.SubDoubleCalculatorTest@4c3e4790</td></tr>
+<tr>
+<td title='com.epam.unittesting.tests.SubDoubleCalculatorTest.subDoubleTest()'><b>subDoubleTest</b><br>Test class: com.epam.unittesting.tests.SubDoubleCalculatorTest<br>Parameters: 100.6, 64.0, 36.6</td>
+<td><div><pre>java.lang.AssertionError: Invalid result of subtraction:  expected [36.6] but found [36.599999999999994]
+	at com.epam.unittesting.tests.SubDoubleCalculatorTest.subDoubleTest(SubDoubleCalculatorTest.java:13)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1295438858", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1295438858'><pre>java.lang.AssertionError: Invalid result of subtraction:  expected [36.6] but found [36.599999999999994]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at com.epam.unittesting.tests.SubDoubleCalculatorTest.subDoubleTest(SubDoubleCalculatorTest.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>com.epam.unittesting.tests.SubDoubleCalculatorTest@4c3e4790</td></tr>
+<tr>
+<td title='com.epam.unittesting.tests.SubDoubleCalculatorTest.subDoubleTest()'><b>subDoubleTest</b><br>Test class: com.epam.unittesting.tests.SubDoubleCalculatorTest<br>Parameters: 100.9, 64.0, 36.9</td>
+<td><div><pre>java.lang.AssertionError: Invalid result of subtraction:  expected [36.9] but found [36.900000000000006]
+	at com.epam.unittesting.tests.SubDoubleCalculatorTest.subDoubleTest(SubDoubleCalculatorTest.java:13)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace738795180", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace738795180'><pre>java.lang.AssertionError: Invalid result of subtraction:  expected [36.9] but found [36.900000000000006]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at com.epam.unittesting.tests.SubDoubleCalculatorTest.subDoubleTest(SubDoubleCalculatorTest.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>com.epam.unittesting.tests.SubDoubleCalculatorTest@4c3e4790</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.epam.unittesting.tests.SubDoubleCalculatorTest.subDoubleTest()'><b>subDoubleTest</b><br>Test class: com.epam.unittesting.tests.SubDoubleCalculatorTest<br>Parameters: 214.5, 305.5, -91</td>
+<td></td>
+<td>0</td>
+<td>com.epam.unittesting.tests.SubDoubleCalculatorTest@4c3e4790</td></tr>
+<tr>
+<td title='com.epam.unittesting.tests.SubDoubleCalculatorTest.subDoubleTest()'><b>subDoubleTest</b><br>Test class: com.epam.unittesting.tests.SubDoubleCalculatorTest<br>Parameters: 25.9, 14.7, 11.2</td>
+<td></td>
+<td>0</td>
+<td>com.epam.unittesting.tests.SubDoubleCalculatorTest@4c3e4790</td></tr>
+<tr>
+<td title='com.epam.unittesting.tests.SubDoubleCalculatorTest.subDoubleTest()'><b>subDoubleTest</b><br>Test class: com.epam.unittesting.tests.SubDoubleCalculatorTest<br>Parameters: 75.45, 25.34, 50.11</td>
+<td></td>
+<td>0</td>
+<td>com.epam.unittesting.tests.SubDoubleCalculatorTest@4c3e4790</td></tr>
+<tr>
+<td title='com.epam.unittesting.tests.SubCalculatorTest.subTest()'><b>subTest</b><br>Test class: com.epam.unittesting.tests.SubCalculatorTest<br>Parameters: 16, 15, 1</td>
+<td></td>
+<td>0</td>
+<td>com.epam.unittesting.tests.SubCalculatorTest@4f47d241</td></tr>
+<tr>
+<td title='com.epam.unittesting.tests.SubCalculatorTest.subTest()'><b>subTest</b><br>Test class: com.epam.unittesting.tests.SubCalculatorTest<br>Parameters: 15, 15, 0</td>
+<td></td>
+<td>0</td>
+<td>com.epam.unittesting.tests.SubCalculatorTest@4f47d241</td></tr>
+<tr>
+<td title='com.epam.unittesting.tests.SubCalculatorTest.subTest()'><b>subTest</b><br>Test class: com.epam.unittesting.tests.SubCalculatorTest<br>Parameters: 10, -15, 25</td>
+<td></td>
+<td>0</td>
+<td>com.epam.unittesting.tests.SubCalculatorTest@4f47d241</td></tr>
+<tr>
+<td title='com.epam.unittesting.tests.SubCalculatorTest.subTest()'><b>subTest</b><br>Test class: com.epam.unittesting.tests.SubCalculatorTest<br>Parameters: -10, -15, 5</td>
+<td></td>
+<td>0</td>
+<td>com.epam.unittesting.tests.SubCalculatorTest@4f47d241</td></tr>
+<tr>
+<td title='com.epam.unittesting.tests.SubCalculatorTest.subTest()'><b>subTest</b><br>Test class: com.epam.unittesting.tests.SubCalculatorTest<br>Parameters: -10, 15, -25</td>
+<td></td>
+<td>0</td>
+<td>com.epam.unittesting.tests.SubCalculatorTest@4f47d241</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="testMultiplication(failed)" parallel="tests">
+    <classes>
+      <class name="com.epam.unittesting.tests.MultDoubleCalculatorTest">
+        <methods>
+          <include name="multTest" invocation-numbers="0 1 4 5"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.unittesting.tests.MultDoubleCalculatorTest -->
+    </classes>
+  </test> <!-- testMultiplication(failed) -->
+  <test name="testTg(failed)" parallel="tests">
+    <classes>
+      <class name="com.epam.unittesting.tests.TgCalculatorTest">
+        <methods>
+          <include name="tgTest" invocation-numbers="0 2"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.unittesting.tests.TgCalculatorTest -->
+    </classes>
+  </test> <!-- testTg(failed) -->
+  <test name="testSum(failed)" parallel="tests">
+    <classes>
+      <class name="com.epam.unittesting.tests.SumDoubleCalculatorTest">
+        <methods>
+          <include name="sumDoubleTest" invocation-numbers="8 9 13 14 15"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.unittesting.tests.SumDoubleCalculatorTest -->
+    </classes>
+  </test> <!-- testSum(failed) -->
+  <test name="testCos(failed)" parallel="tests">
+    <classes>
+      <class name="com.epam.unittesting.tests.CosCalculatorTest">
+        <methods>
+          <include name="cosTest" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.unittesting.tests.CosCalculatorTest -->
+    </classes>
+  </test> <!-- testCos(failed) -->
+  <test name="testCtg(failed)" parallel="tests">
+    <classes>
+      <class name="com.epam.unittesting.tests.CtgCalculatorTest">
+        <methods>
+          <include name="ctgTest" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.unittesting.tests.CtgCalculatorTest -->
+    </classes>
+  </test> <!-- testCtg(failed) -->
+  <test name="testDivision(failed)" parallel="tests">
+    <classes>
+      <class name="com.epam.unittesting.tests.DivDoubleCalculatorTest">
+        <methods>
+          <include name="divTest" invocation-numbers="7 8"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.unittesting.tests.DivDoubleCalculatorTest -->
+    </classes>
+  </test> <!-- testDivision(failed) -->
+  <test name="testIsPositive(failed)" parallel="tests">
+    <classes>
+      <class name="com.epam.unittesting.tests.IsPositiveCalculatorTest">
+        <methods>
+          <include name="isPositiveTest" invocation-numbers="1 2"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.unittesting.tests.IsPositiveCalculatorTest -->
+    </classes>
+  </test> <!-- testIsPositive(failed) -->
+  <test name="testIsNegative(failed)" parallel="tests">
+    <classes>
+      <class name="com.epam.unittesting.tests.IsNegativeCalculatorTest">
+        <methods>
+          <include name="isNegativeTest" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.unittesting.tests.IsNegativeCalculatorTest -->
+    </classes>
+  </test> <!-- testIsNegative(failed) -->
+  <test name="testSubtraction(failed)" parallel="tests">
+    <classes>
+      <class name="com.epam.unittesting.tests.SubDoubleCalculatorTest">
+        <methods>
+          <include name="subDoubleTest" invocation-numbers="3 4 5 6 7"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.unittesting.tests.SubDoubleCalculatorTest -->
+    </classes>
+  </test> <!-- testSubtraction(failed) -->
+</suite> <!-- Failed suite [Suite] -->
