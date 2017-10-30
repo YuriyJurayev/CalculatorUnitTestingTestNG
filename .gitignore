@@ -7,6 +7,6 @@ target/*
 
 # IDEA
 .idea/*
-CancerAutomationTF.iml
+CalculatorUnitTestingTestNG.iml
 /target/
 /bin/
