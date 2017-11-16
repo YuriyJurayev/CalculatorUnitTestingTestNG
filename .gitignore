@@ -1,11 +1,23 @@
-# Package Files #
-*.war
-*.ear
-target/*
-/test-output/*
-
 # IDEA
 .idea/*
 CalculatorUnitTestingTestNG.iml
 /target/
 /bin/
+.idea/workspace.xml
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+
+
+# Package Files #
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+target/*
+/test-output/*
