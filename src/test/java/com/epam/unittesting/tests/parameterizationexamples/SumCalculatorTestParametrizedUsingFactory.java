@@ -34,7 +34,7 @@ public class SumCalculatorTestParametrizedUsingFactory {
 
 
     @DataProvider(name = "sumDataProvider")
-    public static Object[][] sumDataProvider() {   ///has to be static when using @Factory
+    public static Object[][] sumDataProvider() {
         return new Object[][]{
                 {2, 3, 5},
                 {2, 2, 4},

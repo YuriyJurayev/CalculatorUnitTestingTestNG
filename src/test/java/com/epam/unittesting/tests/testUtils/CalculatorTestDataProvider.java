@@ -33,14 +33,14 @@ public class CalculatorTestDataProvider {
                 {-16.0, -44.1, -60.1},
                 {-16.0, 44.9, 28.9},
                 {16.0, -44.9, -28.9},
-                {16.0, -44.7, -28.7},  //bug
-                {16.0, -44.8, -28.8},  //bug
+                {16.0, -44.7, -28.7},
+                {16.0, -44.8, -28.8},
                 {16.0, -44.6, -28.6},
                 {16.0, -44.5, -28.5},
                 {16.0, -44.4, -28.4},
-                {16.0, -44.3, -28.3},  ///bug
-                {16.0, -44.2, -28.2},  ///bug
-                {16.0, -44.7, -28.1}   ///bug
+                {16.0, -44.3, -28.3},
+                {16.0, -44.2, -28.2},
+                {16.0, -44.7, -28.1}
         };
     }
 
@@ -50,12 +50,12 @@ public class CalculatorTestDataProvider {
                 {214.5, 305.5, -91},
                 {25.9, 14.7, 11.2},
                 {75.45, 25.34, 50.11},
-                {100.01, 64, 36.01}, // bug
-                {100.1, 64.0, 36.1}, // bug
-                {100.4, 64.0, 36.4}, // bug
-                {100.6, 64.0, 36.6}, // bug
-                {100.9, 64.0, 36.9}, // bug
-                // bug with decimal after floating point of the results like *.9 and *.6 and *.4 and *.1
+                {100.01, 64, 36.01},
+                {100.1, 64.0, 36.1},
+                {100.4, 64.0, 36.4},
+                {100.6, 64.0, 36.6},
+                {100.9, 64.0, 36.9},
+
         };
     }
 
@@ -83,12 +83,12 @@ public class CalculatorTestDataProvider {
     @DataProvider(name = "multDouble")
     public Object[][] multDoubleDataProvider() {
         return new Object[][]{
-                {1.1, 2, 2.2},  //bug
-                {5.5, 5.5, 30.25},  //bug
+                {1.1, 2, 2.2},
+                {5.5, 5.5, 30.25},
                 {10, -15.1, -151},
                 {-10, -15, 150},
-                {4.77, 4.78, 22.8006}, //bug
-                {4.77, 1, 4.77},    ///bug
+                {4.77, 4.78, 22.8006},
+                {4.77, 1, 4.77},
                 {4.1, 0, 0},
                 {0, 4.1, 0}
         };
@@ -117,8 +117,8 @@ public class CalculatorTestDataProvider {
                 {22.8006, 4.78, 4.77},
                 {4.77, 1, 4.77},
                 {0, 4, 0},
-                {4.2, 0, 0},  //bug - returns Infinity
-                {0.000, 0, 0}  //bug - returns NaN   see package com.epam.unittesting.tests.bugsresolutionexamples.DivDoubleByZero
+                {4.2, 0, 0},
+                {0.000, 0, 0}
         };
     }
     @DataProvider(name = "pow")
@@ -150,8 +150,6 @@ public class CalculatorTestDataProvider {
                 {30.0, 0.5774},
                 {45, 1},
                 {60.0, 1.7321}
-          //// implementation of tg method is incorrect. suppose to be like  {return StrictMath.tan(a); // default impl. delegates to StrictMath}
-                ///method cos returns sin which is the bug for standalone cos method as well // always returns 1
         };
     }
     @DataProvider(name = "ctg")
@@ -160,7 +158,6 @@ public class CalculatorTestDataProvider {
                 {30.0, 1.732},
                 {45, 1},
                 {60.0, 0.577}
-                // method returns the hyperbolic tangent
         };
     }
     @DataProvider(name = "cos")
@@ -168,7 +165,6 @@ public class CalculatorTestDataProvider {
         return new Object[][]{
                 {1, 0.54030230586814},
                 {50, 0.96496602849211}
-                ///method always returns sin(a)
         };
     }
     @DataProvider(name = "sin")
