@@ -1,5 +1,6 @@
 package com.epam.unittesting.tests.runner;
 
+
 import com.epam.unittesting.tests.runner.exception.RunnerException;
 import org.testng.TestNG;
 import org.testng.xml.Parser;
@@ -7,7 +8,7 @@ import org.testng.xml.XmlSuite;
 import java.io.IOException;
 import java.util.List;
 
-public class Runner extends RuntimeException {
+public class Runner {
     public static void main(String[] args) throws RunnerException {
 
         System.out.println("Runner");
