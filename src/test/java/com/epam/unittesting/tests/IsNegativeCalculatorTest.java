@@ -10,6 +10,11 @@ public class IsNegativeCalculatorTest extends BaseTest {
     public void isNegativeTest(long a){
         boolean result = calc.isNegative(a);
         System.out.println("is " + a + " the negative number " + "= "+ result);
-        Assert.assertTrue(result);
+        if(a < 0){
+            Assert.assertTrue(result,"Result is positive");
+        }else{
+
+            Assert.assertFalse(result,"Result is negative");
+        }
     }
 }

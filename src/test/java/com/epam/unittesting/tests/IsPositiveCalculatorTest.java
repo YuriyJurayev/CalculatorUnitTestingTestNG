@@ -9,6 +9,10 @@ public class IsPositiveCalculatorTest extends BaseTest {
     public void isPositiveTest(long a) {
         boolean result = calc.isPositive(a);
         System.out.println("is " + a + " the positive number " + " = " + result);
-        Assert.assertTrue(result);
+        if(a > 0){
+            Assert.assertTrue(result,"Result is negative");
+        }else {
+            Assert.assertFalse(result, "Result is positive");
+        }
     }
 }
