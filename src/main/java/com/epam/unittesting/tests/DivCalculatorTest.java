@@ -8,13 +8,14 @@ public class DivCalculatorTest extends BaseTest{
 
     @Test(dataProvider = "divLong", dataProviderClass = CalculatorTestDataProvider.class)
     public void divTest(long a, long b, long expected){
-        long result;
-        try{
-            result = calc.div(a, b);
-            System.out.println("division: " + a + " / " + b + " = " + result);
-            Assert.assertEquals(result, expected, "Invalid result of division: ");
-        }catch (NumberFormatException e){
-            System.out.println("division by zero: " + a + " / " + b + " is strongly prohibited!");
-        }
+        long result = calc.div(a, b);
+        System.out.println("division: " + a + " / " + b + " = " + result);
+        Assert.assertEquals(result, expected, "Invalid result of division: ");
+    }
+
+    @Test(expectedExceptions = NumberFormatException.class ,dataProvider = "divByZeroLong", dataProviderClass = CalculatorTestDataProvider.class)
+    public void divByZeroTest(long a, long b){
+        System.out.println("division: " + a + " / " + b);
+        calc.div(a, b);
     }
 }
