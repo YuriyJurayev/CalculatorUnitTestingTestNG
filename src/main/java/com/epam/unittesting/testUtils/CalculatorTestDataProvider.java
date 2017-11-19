@@ -101,9 +101,18 @@ public class CalculatorTestDataProvider {
                 {25, 5, 5},
                 {-150, 15, -10},
                 {-150, -15, 10},
-                {0, 4, 0},
-                {4, 0, 0},
-                {0, 0, 0}
+                {0, 4, 0}
+
+        };
+    }
+    @DataProvider(name = "divByZeroLong")
+    public Object[][] divByZeroDataProvider() {
+        return new Object[][]{
+                {-4, 0},
+                {15, 0},
+                {+22, 0},
+                {10249, 0},
+                {0, 0}
         };
     }
 
@@ -116,11 +125,22 @@ public class CalculatorTestDataProvider {
                 {-150, -15, 10},
                 {22.8006, 4.78, 4.77},
                 {4.77, 1, 4.77},
-                {0, 4, 0},
-                {4.2, 0, 0},
-                {0.000, 0, 0}
+                {0, 4, 0}
         };
     }
+
+    @DataProvider(name = "divByZeroDouble")
+    public Object[][] divByZeroDoubleDataProvider() {
+        return new Object[][]{
+                {-4.2, 0},
+                {0.000, 0},
+                {-4.2, 0.0},
+                {0.000, 0.00},
+                {566, 0},
+                {0.001, 0}
+        };
+    }
+
     @DataProvider(name = "pow")
     public Object[][] powDataProvider() {
         return new Object[][]{
@@ -186,9 +206,12 @@ public class CalculatorTestDataProvider {
     @DataProvider(name = "isNegative")
     public Object[][] isNegativeDataProvider() {
         return new Object[][]{
-                {11},
-                {0},
-                {-1}
+                {11, false},
+                {0, false},
+                {-1, true},
+                {-111, true},
+                {-23345, true},
+                {-555555, true}
         };
     }
 }
