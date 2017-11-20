@@ -22,5 +22,14 @@ public class Runner extends RuntimeException {
         } catch (IOException e) {
             throw new RunnerException("Ошибка при чтении" + e.getMessage());
         }
+
+        /*TestNG testng = new TestNG();
+
+    List<String> suites = new ArrayList<String>();
+    suites.add("src/test/resources/testng.xml");
+    testng.setTestSuites(suites);
+    testng.setOutputDirectory("target/test-output");
+    testng.run();*/
     }
 }
+
