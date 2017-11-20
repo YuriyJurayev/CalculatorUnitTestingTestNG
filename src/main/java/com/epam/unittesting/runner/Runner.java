@@ -1,11 +1,6 @@
 package com.epam.unittesting.runner;
 
-
-import com.epam.unittesting.runner.exception.RunnerException;
 import org.testng.TestNG;
-import org.testng.xml.Parser;
-import org.testng.xml.XmlSuite;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
