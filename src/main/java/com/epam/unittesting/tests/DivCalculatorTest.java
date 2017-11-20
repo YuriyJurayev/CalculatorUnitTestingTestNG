@@ -14,7 +14,7 @@ public class DivCalculatorTest extends BaseTest{
     }
 
     @Test(expectedExceptions = NumberFormatException.class ,dataProvider = "divByZeroLong", dataProviderClass = CalculatorTestDataProvider.class)
-    public void divByZeroTest(long a, long b){
+    public void divByZero(long a, long b){
         System.out.println("division: " + a + " / " + b);
         calc.div(a, b);
     }
