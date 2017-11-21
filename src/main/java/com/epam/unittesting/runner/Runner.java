@@ -8,7 +8,7 @@ public class Runner {
     public static void main(String[] args){
         TestNG testng = new TestNG();
 
-        List<String> suites = new ArrayList<>();
+        List<String> suites = new ArrayList<String>();
         suites.add("scenarios/testng.xml");
         suites.add("scenarios/testnggrouped.xml");
         suites.add("scenarios/testngparallel.xml");
