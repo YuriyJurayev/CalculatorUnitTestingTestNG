@@ -14,9 +14,9 @@ public class DivDoubleCalculatorTest extends BaseTest {
     }
 
     @Test(expectedExceptions = ArithmeticException.class ,dataProvider = "divByZeroDouble", dataProviderClass = CalculatorTestDataProvider.class)
-    public void divByZeroTest(double a, double b){
-        System.out.println("division: " + a + " / " + b);
-        calc.div(a, b);
+    public void divByZeroTest(double a){
+        System.out.println("division: " + a + " / " + 0);
+        calc.div(a, 0);
 
     }
 
