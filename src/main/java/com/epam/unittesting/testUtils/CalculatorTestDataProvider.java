@@ -108,11 +108,11 @@ public class CalculatorTestDataProvider {
     @DataProvider(name = "divByZeroLong")
     public Object[][] divByZeroDataProvider() {
         return new Object[][]{
-                {-4, 0},
-                {15, 0},
-                {+22, 0},
-                {10249, 0},
-                {0, 0}
+                {-4},
+                {15},
+                {+22},
+                {10249},
+                {0}
         };
     }
 
@@ -132,12 +132,12 @@ public class CalculatorTestDataProvider {
     @DataProvider(name = "divByZeroDouble")
     public Object[][] divByZeroDoubleDataProvider() {
         return new Object[][]{
-                {-4.2, 0},
-                {0.000, 0},
-                {-4.2, 0.0},
-                {0.000, 0.00},
-                {566, 0},
-                {0.001, 0}
+                {-4.2},
+                {0.0233},
+                {-4.2},
+                {0.000},
+                {566},
+                {0.001}
         };
     }
 
