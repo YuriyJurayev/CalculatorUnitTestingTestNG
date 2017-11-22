@@ -195,12 +195,25 @@ public class CalculatorTestDataProvider {
                 {90, 1}
         };
     }
-    @DataProvider(name = "isPositive")
-    public static Object[][] isPositiveDataProvider() {
+    @DataProvider(name = "isPositiveTrue")
+    public static Object[][] isPositiveTrueDataProvider() {
         return new Object[][]{
                 {1},
+                {12},
+                {555},
+                {1234},
+                {75644},
+                {324324}
+        };
+    }
+    @DataProvider(name = "isPositiveFalse")
+    public static Object[][] isPositiveFalseDataProvider() {
+        return new Object[][]{
                 {0},
-                {-1}
+                {-1},
+                {-23},
+                {-145},
+                {-4003}
         };
     }
     @DataProvider(name = "isNegative")

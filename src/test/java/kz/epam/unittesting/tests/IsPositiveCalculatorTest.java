@@ -5,15 +5,17 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class IsPositiveCalculatorTest extends BaseTest {
-    @Test(dataProvider = "isPositive", dataProviderClass = CalculatorTestDataProvider.class)
-    public void isPositiveTest(long a) {
+    @Test(dataProvider = "isPositiveTrue", dataProviderClass = CalculatorTestDataProvider.class)
+    public void isPositiveTrueTest(long a) {
         boolean result = calc.isPositive(a);
         System.out.println("is " + a + " the positive number " + " = " + result);
         Assert.assertTrue(result,"Result is negative");
-        /*if(a > 0){
-            Assert.assertTrue(result,"Result is negative");
-        }else {
-            Assert.assertFalse(result, "Result is positive");
-        }*/
+    }
+
+    @Test(dataProvider = "isPositiveFalse", dataProviderClass = CalculatorTestDataProvider.class)
+    public void isPositiveFalseTest(long a) {
+        boolean result = calc.isPositive(a);
+        System.out.println("is " + a + " the positive number " + " = " + result);
+        Assert.assertFalse(result,"Result is positive");
     }
 }
