@@ -1,4 +1,4 @@
-package com.epam.unittesting.parameterizationexamples;
+package kz.epam.unittesting.parameterizationexamples;
 import com.epam.tat.module4.Calculator;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;

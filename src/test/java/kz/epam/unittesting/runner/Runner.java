@@ -1,4 +1,4 @@
-package com.epam.unittesting.runner;
+package kz.epam.unittesting.runner;
 
 import org.testng.TestNG;
 import java.util.ArrayList;

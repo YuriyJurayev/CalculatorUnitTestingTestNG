@@ -1,11 +1,11 @@
-package com.epam.unittesting.testUtils;
+package kz.epam.unittesting.testUtils;
 
 import org.testng.annotations.DataProvider;
 
 public class CalculatorTestDataProvider {
 
     @DataProvider(name = "sumLong")
-    public Object[][] sumDataProvider() {
+    public static Object[][] sumDataProvider() {
         return new Object[][]{
                 {2, 3, 5},
                 {2, 2, 4},
@@ -14,7 +14,7 @@ public class CalculatorTestDataProvider {
 
     }
     @DataProvider(name = "sumLong1")
-    public Object[][] sumDataProvider1() {
+    public static Object[][] sumDataProvider1() {
         return new Object[][]{
                 {214, 305, 519},
                 {10, 10, 20},
@@ -23,7 +23,7 @@ public class CalculatorTestDataProvider {
     }
 
     @DataProvider(name = "sumDouble")
-    public Object[][] sumDoubleDataProvider() {
+    public static Object[][] sumDoubleDataProvider() {
         return new Object[][]{
                 {214.5, 305.5, 520},
                 {10.1, 10.3, 20.4},
@@ -45,7 +45,7 @@ public class CalculatorTestDataProvider {
     }
 
     @DataProvider(name = "subDouble")
-    public Object[][] subDoubleDataProvider() {
+    public static Object[][] subDoubleDataProvider() {
         return new Object[][]{
                 {214.5, 305.5, -91},
                 {25.9, 14.7, 11.2},
@@ -60,7 +60,7 @@ public class CalculatorTestDataProvider {
     }
 
     @DataProvider(name = "subLong")
-    public Object[][] subDataProvider() {
+    public static Object[][] subDataProvider() {
         return new Object[][]{
                 {16, 15, 1},
                 {15, 15, 0},
@@ -70,7 +70,7 @@ public class CalculatorTestDataProvider {
         };
     }
     @DataProvider(name = "multLong")
-    public Object[][] multDataProvider() {
+    public static Object[][] multDataProvider() {
         return new Object[][]{
                 {16, 10, 160},
                 {5, 5, 25},
@@ -81,7 +81,7 @@ public class CalculatorTestDataProvider {
     }
 
     @DataProvider(name = "multDouble")
-    public Object[][] multDoubleDataProvider() {
+    public static Object[][] multDoubleDataProvider() {
         return new Object[][]{
                 {1.1, 2, 2.2},
                 {5.5, 5.5, 30.25},
@@ -95,7 +95,7 @@ public class CalculatorTestDataProvider {
     }
 
     @DataProvider(name = "divLong")
-    public Object[][] divDataProvider() {
+    public static Object[][] divDataProvider() {
         return new Object[][]{
                 {160, 10, 16},
                 {25, 5, 5},
@@ -106,7 +106,7 @@ public class CalculatorTestDataProvider {
         };
     }
     @DataProvider(name = "divByZeroLong")
-    public Object[][] divByZeroDataProvider() {
+    public static Object[][] divByZeroDataProvider() {
         return new Object[][]{
                 {-4},
                 {15},
@@ -117,7 +117,7 @@ public class CalculatorTestDataProvider {
     }
 
     @DataProvider(name = "divDouble")
-    public Object[][] divDoubleDataProvider() {
+    public static Object[][] divDoubleDataProvider() {
         return new Object[][]{
                 {2.2, 2, 1.1},
                 {30.25, 5.5, 5.5},
@@ -130,7 +130,7 @@ public class CalculatorTestDataProvider {
     }
 
     @DataProvider(name = "divByZeroDouble")
-    public Object[][] divByZeroDoubleDataProvider() {
+    public static Object[][] divByZeroDoubleDataProvider() {
         return new Object[][]{
                 {-4.2},
                 {0.0233},
@@ -142,7 +142,7 @@ public class CalculatorTestDataProvider {
     }
 
     @DataProvider(name = "pow")
-    public Object[][] powDataProvider() {
+    public static Object[][] powDataProvider() {
         return new Object[][]{
                 {3, 2, 9},
                 {5, 2, 25},
@@ -154,7 +154,7 @@ public class CalculatorTestDataProvider {
         };
     }
     @DataProvider(name = "sqrt")
-    public Object[][] sqrtDataProvider() {
+    public static Object[][] sqrtDataProvider() {
         return new Object[][]{
                 {9, 3},
                 {4, 2},
@@ -165,7 +165,7 @@ public class CalculatorTestDataProvider {
         };
     }
     @DataProvider(name = "tg")
-    public Object[][] tgDataProvider() {
+    public static Object[][] tgDataProvider() {
         return new Object[][]{
                 {30.0, 0.5774},
                 {45, 1},
@@ -173,7 +173,7 @@ public class CalculatorTestDataProvider {
         };
     }
     @DataProvider(name = "ctg")
-    public Object[][] ctgDataProvider() {
+    public static Object[][] ctgDataProvider() {
         return new Object[][]{
                 {30.0, 1.732},
                 {45, 1},
@@ -181,14 +181,14 @@ public class CalculatorTestDataProvider {
         };
     }
     @DataProvider(name = "cos")
-    public Object[][] cosDataProvider() {
+    public static Object[][] cosDataProvider() {
         return new Object[][]{
                 {1, 0.54030230586814},
                 {50, 0.96496602849211}
         };
     }
     @DataProvider(name = "sin")
-    public Object[][] sinDataProvider() {
+    public static Object[][] sinDataProvider() {
         return new Object[][]{
                 {45, 0.7071067811865475},
                 {60, 0.8660254037844386},
@@ -196,7 +196,7 @@ public class CalculatorTestDataProvider {
         };
     }
     @DataProvider(name = "isPositive")
-    public Object[][] isPositiveDataProvider() {
+    public static Object[][] isPositiveDataProvider() {
         return new Object[][]{
                 {1},
                 {0},
@@ -204,7 +204,7 @@ public class CalculatorTestDataProvider {
         };
     }
     @DataProvider(name = "isNegative")
-    public Object[][] isNegativeDataProvider() {
+    public static Object[][] isNegativeDataProvider() {
         return new Object[][]{
                 {11, false},
                 {0, false},

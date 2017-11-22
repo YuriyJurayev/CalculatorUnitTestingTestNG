@@ -1,6 +1,6 @@
-package com.epam.unittesting.tests;
+package kz.epam.unittesting.tests;
 
-import com.epam.unittesting.testUtils.CalculatorTestDataProvider;
+import kz.epam.unittesting.testUtils.CalculatorTestDataProvider;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
