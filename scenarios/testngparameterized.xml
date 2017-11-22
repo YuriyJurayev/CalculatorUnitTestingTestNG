@@ -11,7 +11,7 @@
             </run>
         </groups>
         <classes>
-            <class name="com.epam.unittesting.parameterizationexamples.SumCalculatorTestParameterizedUsingXMLParameters"/>
+            <class name="SumCalculatorTestParameterizedUsingXMLParameters"/>
         </classes>
     </test> <!-- Test -->
     <test name="test2">
@@ -24,7 +24,7 @@
             </run>
         </groups>
         <classes>
-            <class name="com.epam.unittesting.parameterizationexamples.SumCalculatorTestParameterizedUsingXMLParameters"/>
+            <class name="SumCalculatorTestParameterizedUsingXMLParameters"/>
         </classes>
     </test> <!-- Test -->
     <test name="test3">
@@ -32,7 +32,7 @@
         <parameter name="b" value="15"/>
         <parameter name="expected" value="30"/>
         <classes>
-            <class name="com.epam.unittesting.parameterizationexamples.SumCalculatorTestParameterizedUsingXMLParameters">
+            <class name="SumCalculatorTestParameterizedUsingXMLParameters">
                 <methods>
                     <exclude name="testSum1"/>
                     <exclude name="testSum2"/>

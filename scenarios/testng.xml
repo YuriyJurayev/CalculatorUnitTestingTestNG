@@ -3,66 +3,66 @@
 <suite name="Suite" parallel="tests" thread-count="6">
     <test name="testSum">
         <classes>
-            <class name="com.epam.unittesting.tests.SumCalculatorTest"/>
-            <class name="com.epam.unittesting.tests.SumDoubleCalculatorTest"/> <!-- порядок не соблюдается-->
+            <class name="SumCalculatorTest"/>
+            <class name="SumDoubleCalculatorTest"/> <!-- порядок не соблюдается-->
         </classes>
     </test> <!-- Test -->
     <test name="testSubtraction">
         <classes>
-            <class name="com.epam.unittesting.tests.SubCalculatorTest"/>
-            <class name="com.epam.unittesting.tests.SubDoubleCalculatorTest"/>
+            <class name="SubCalculatorTest"/>
+            <class name="SubDoubleCalculatorTest"/>
         </classes>
     </test> <!-- Test -->
     <test name="testMultiplication">
         <classes>
-            <class name="com.epam.unittesting.tests.MultCalculatorTest"/>
-            <class name="com.epam.unittesting.tests.MultDoubleCalculatorTest"/>
+            <class name="MultCalculatorTest"/>
+            <class name="MultDoubleCalculatorTest"/>
         </classes>
     </test> <!-- Test -->
     <test name="testDivision">
         <classes>
-            <class name="com.epam.unittesting.tests.DivCalculatorTest"/>
-            <class name="com.epam.unittesting.tests.DivDoubleCalculatorTest"/>
+            <class name="DivCalculatorTest"/>
+            <class name="DivDoubleCalculatorTest"/>
         </classes>
     </test> <!-- Test -->
     <test name="testPow">
         <classes>
-            <class name="com.epam.unittesting.tests.PowCalculatorTest"/>
+            <class name="PowCalculatorTest"/>
         </classes>
     </test> <!-- Test -->
     <test name="testSqrt">
         <classes>
-            <class name="com.epam.unittesting.tests.SqrtCalculatorTest"/>
+            <class name="SqrtCalculatorTest"/>
         </classes>
     </test> <!-- Test -->
     <test name="testTg">
         <classes>
-            <class name="com.epam.unittesting.tests.TgCalculatorTest"/>
+            <class name="TgCalculatorTest"/>
         </classes>
     </test> <!-- Test -->
     <test name="testCtg">
         <classes>
-            <class name="com.epam.unittesting.tests.CtgCalculatorTest"/>
+            <class name="CtgCalculatorTest"/>
         </classes>
     </test> <!-- Test -->
     <test name="testCos">
         <classes>
-            <class name="com.epam.unittesting.tests.CosCalculatorTest"/>
+            <class name="CosCalculatorTest"/>
         </classes>
     </test> <!-- Test -->
     <test name="testSin">
         <classes>
-            <class name="com.epam.unittesting.tests.SinCalculatorTest"/>
+            <class name="SinCalculatorTest"/>
         </classes>
     </test> <!-- Test -->
     <test name="testIsPositive">
         <classes>
-            <class name="com.epam.unittesting.tests.IsPositiveCalculatorTest"/>
+            <class name="IsPositiveCalculatorTest"/>
         </classes>
     </test> <!-- Test -->
     <test name="testIsNegative">
         <classes>
-            <class name="com.epam.unittesting.tests.IsNegativeCalculatorTest"/>
+            <class name="IsNegativeCalculatorTest"/>
         </classes>
     </test> <!-- Test -->
 </suite>
