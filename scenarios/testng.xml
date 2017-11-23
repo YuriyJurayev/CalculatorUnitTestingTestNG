@@ -3,66 +3,66 @@
 <suite name="Suite" parallel="tests" thread-count="6">
     <test name="testSum">
         <classes>
-            <class name="SumCalculatorTest"/>
-            <class name="SumDoubleCalculatorTest"/> <!-- порядок не соблюдается-->
+            <class name="kz.epam.unittesting.tests.SumCalculatorTest"/>
+            <class name="kz.epam.unittesting.tests.SumDoubleCalculatorTest"/>
         </classes>
-    </test> <!-- Test -->
+    </test>
     <test name="testSubtraction">
         <classes>
-            <class name="SubCalculatorTest"/>
-            <class name="SubDoubleCalculatorTest"/>
+            <class name="kz.epam.unittesting.tests.SubCalculatorTest"/>
+            <class name="kz.epam.unittesting.tests.SubDoubleCalculatorTest"/>
         </classes>
-    </test> <!-- Test -->
+    </test>
     <test name="testMultiplication">
         <classes>
-            <class name="MultCalculatorTest"/>
-            <class name="MultDoubleCalculatorTest"/>
+            <class name="kz.epam.unittesting.tests.MultCalculatorTest"/>
+            <class name="kz.epam.unittesting.tests.MultDoubleCalculatorTest"/>
         </classes>
-    </test> <!-- Test -->
+    </test>
     <test name="testDivision">
         <classes>
-            <class name="DivCalculatorTest"/>
-            <class name="DivDoubleCalculatorTest"/>
+            <class name="kz.epam.unittesting.tests.DivCalculatorTest"/>
+            <class name="kz.epam.unittesting.tests.DivDoubleCalculatorTest"/>
         </classes>
-    </test> <!-- Test -->
+    </test>
     <test name="testPow">
         <classes>
-            <class name="PowCalculatorTest"/>
+            <class name="kz.epam.unittesting.tests.PowCalculatorTest"/>
         </classes>
-    </test> <!-- Test -->
+    </test>
     <test name="testSqrt">
         <classes>
-            <class name="SqrtCalculatorTest"/>
+            <class name="kz.epam.unittesting.tests.SqrtCalculatorTest"/>
         </classes>
-    </test> <!-- Test -->
+    </test>
     <test name="testTg">
         <classes>
-            <class name="TgCalculatorTest"/>
+            <class name="kz.epam.unittesting.tests.TgCalculatorTest"/>
         </classes>
-    </test> <!-- Test -->
+    </test>
     <test name="testCtg">
         <classes>
-            <class name="CtgCalculatorTest"/>
+            <class name="kz.epam.unittesting.tests.CtgCalculatorTest"/>
         </classes>
-    </test> <!-- Test -->
+    </test>
     <test name="testCos">
         <classes>
-            <class name="CosCalculatorTest"/>
+            <class name="kz.epam.unittesting.tests.CosCalculatorTest"/>
         </classes>
-    </test> <!-- Test -->
+    </test>
     <test name="testSin">
         <classes>
-            <class name="SinCalculatorTest"/>
+            <class name="kz.epam.unittesting.tests.SinCalculatorTest"/>
         </classes>
-    </test> <!-- Test -->
+    </test>
     <test name="testIsPositive">
         <classes>
-            <class name="IsPositiveCalculatorTest"/>
+            <class name="kz.epam.unittesting.tests.IsPositiveCalculatorTest"/>
         </classes>
-    </test> <!-- Test -->
+    </test>
     <test name="testIsNegative">
         <classes>
-            <class name="IsNegativeCalculatorTest"/>
+            <class name="kz.epam.unittesting.tests.IsNegativeCalculatorTest"/>
         </classes>
-    </test> <!-- Test -->
+    </test>
 </suite>

@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="methods" thread-count="3">
     <test name="testSum">
         <classes>
-            <class name="SumCalculatorTest"/>
+            <class name="kz.epam.unittesting.tests.SumCalculatorTest"/>
         </classes>
     </test> <!-- Test -->
 </suite>
