@@ -11,7 +11,6 @@ public class CalculatorTestDataProvider {
                 {2, 2, 4},
                 {1, 0, 1}
         };
-
     }
     @DataProvider(name = "sumLong1")
     public static Object[][] sumDataProvider1() {
